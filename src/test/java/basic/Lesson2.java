@@ -1,7 +1,9 @@
-public class Lesson5 {
+package basic;
+
+public class Lesson2 {
     public static void main(String[] args) {
         // BEGIN (write your solution here)
-        System.out.println ("What Is Dead May Never Die");
+        // You know nothing, Jon Snow!.
         // END
     }
 }

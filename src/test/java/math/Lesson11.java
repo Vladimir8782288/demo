@@ -1,7 +1,9 @@
-public class Lesson2 {
+package math;
+
+public class Lesson11 {
     public static void main(String[] args) {
         // BEGIN (write your solution here)
-        // You know nothing, Jon Snow!.
+        System.out.println (0.39 * 0.22);
         // END
     }
 }

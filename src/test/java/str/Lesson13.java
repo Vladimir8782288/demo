@@ -1,3 +1,5 @@
+package str;
+
 public class Lesson13 {
     public static void main(String[] args) {
         // BEGIN (write your solution here)

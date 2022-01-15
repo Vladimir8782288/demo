@@ -1,7 +1,9 @@
-public class Lesson9 {
+package math;
+
+public class Lesson7 {
     public static void main(String[] args) {
         // BEGIN (write your solution here)
-        System.out.println (8/2+5-(-3)/2);
+        System.out.println (6-(-81));
         // END
     }
 }
