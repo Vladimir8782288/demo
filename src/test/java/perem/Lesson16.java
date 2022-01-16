@@ -6,7 +6,7 @@ public class Lesson16 {
 
     @Test
     void test(){
-        var motto = "What Is Dead May Never Die!";//это комментарий
+        var motto = "What Is Dead May Never Die!";
         System.out.println(motto);
     }
 }
