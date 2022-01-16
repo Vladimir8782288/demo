@@ -1,4 +1,4 @@
-package math;
+package str;
 
 import org.junit.jupiter.api.Test;
 

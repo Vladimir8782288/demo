@@ -1,9 +1,11 @@
 package math;
 
+import org.junit.jupiter.api.Test;
+
 public class Lesson12 {
-    public static void main(String[] args) {
-        // BEGIN (write your solution here)
-        System.out.println((5 +2 ) - (3 * 7));
-        // END
+
+    @Test
+    void test(){
+        System.out.println((5 + 2) - (3 * 7));
     }
 }
