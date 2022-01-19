@@ -1,4 +1,4 @@
-package perem;
+package variable;
 
 import org.junit.jupiter.api.Test;
 

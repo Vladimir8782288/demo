@@ -1,8 +1,9 @@
-package perem;
+package variable;
 
 import org.junit.jupiter.api.Test;
 
 public class Lesson21 {
+
     @Test
     void test() {
         var info = "We couldn't verify you mother's maiden name.";
