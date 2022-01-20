@@ -8,6 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class WebTest {
 
@@ -18,6 +19,7 @@ public class WebTest {
         browser.get("http://ya.ru");
         browser.findElement(By.cssSelector("input#text")).sendKeys("Букмекерская контора марафон");
         browser.findElement(By.cssSelector("button.button_theme_search")).click();
+        assertEquals(15, browser.findElements(By.cssSelector("div.VanillaReact.OrganicTitle")).size());
         browser.close();
     }
 
