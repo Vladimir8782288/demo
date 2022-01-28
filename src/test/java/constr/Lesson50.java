@@ -11,6 +11,7 @@ public class Lesson50 {
         System.out.println(whoIsThisHouseToStarks("Ivanov"));
 
     }
+
     public String whoIsThisHouseToStarks(String houseName) {
         if ("Karstark".equals(houseName) || "Tally".equals(houseName)) {
             return "friend";
