@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import po.YandexPage;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
@@ -14,10 +15,11 @@ public class WebTest {
 
     @Test
     void test() {
-        System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\drivers1\\chromedriver.exe");
         var browser = new ChromeDriver();
+        var yandexPage = new YandexPage(browser);
         browser.get("http://ya.ru");
-        browser.findElement(By.cssSelector("input#text")).sendKeys("Букмекерская контора марафон");
+        yandexPage.typeText("Букмекерская контора марафон");
         browser.findElement(By.cssSelector("button.button_theme_search")).click();
         assertEquals(15, browser.findElements(By.cssSelector("div.VanillaReact.OrganicTitle")).size());
         browser.close();
