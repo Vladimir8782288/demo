@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 public class Lesson52 {
     @Test
     void test() {
-        System.out.println(getNumberExplanation(1000));
+        System.out.println(getNumberExplanation(999));
         System.out.println(getNumberExplanation(42));
         System.out.println(getNumberExplanation(7));
     }
